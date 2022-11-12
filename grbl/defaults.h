@@ -465,9 +465,9 @@
   #define DEFAULT_X_MAX_RATE 240.0 // mm/min
   #define DEFAULT_Y_MAX_RATE 240.0 // mm/min
   #define DEFAULT_Z_MAX_RATE 240.0 // mm/min
-  #define DEFAULT_X_ACCELERATION (100.0*60.0*60.0) // 10*60*60 mm/min^2 = 10 mm/sec^2
-  #define DEFAULT_Y_ACCELERATION (100.0*60.0*60.0) // 10*60*60 mm/min^2 = 10 mm/sec^2
-  #define DEFAULT_Z_ACCELERATION (100.0*60.0*60.0) // 10*60*60 mm/min^2 = 10 mm/sec^2
+  #define DEFAULT_X_ACCELERATION (5.0*60.0*60.0) // 10*60*60 mm/min^2 = 10 mm/sec^2
+  #define DEFAULT_Y_ACCELERATION (5.0*60.0*60.0) // 10*60*60 mm/min^2 = 10 mm/sec^2
+  #define DEFAULT_Z_ACCELERATION (5.0*60.0*60.0) // 10*60*60 mm/min^2 = 10 mm/sec^2
   #define DEFAULT_X_MAX_TRAVEL 115.0 // mm
   #define DEFAULT_Y_MAX_TRAVEL 44.0 // mm
   #define DEFAULT_Z_MAX_TRAVEL 73.0 // mm
@@ -490,7 +490,7 @@
   #define DEFAULT_HOMING_ENABLE 1  // true
   #define DEFAULT_HOMING_DIR_MASK 3 // move positive dir
   #define DEFAULT_HOMING_FEED_RATE 40.0 // mm/min
-  #define DEFAULT_HOMING_SEEK_RATE 160.0 // mm/min
+  #define DEFAULT_HOMING_SEEK_RATE 200.0 // mm/min
   #define DEFAULT_HOMING_DEBOUNCE_DELAY 250 // msec (0-65k)
   #define DEFAULT_HOMING_PULLOFF 1.0 // mm
 #endif
